@@ -1,0 +1,131 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(226, 235, 216);
+}
+body{
+    background-color: #0e0c2b;
+}
+header{
+    background-image: url(sitecover.jpg);
+    
+    padding: 30px;
+    min-height: 150px;
+}
+nav{
+    margin-top: 10px;
+    background-color: #1b184b;
+}
+.navm{
+    list-style-type: none;
+    display: flex;
+   
+    justify-content: space-between;
+    overflow: hidden; 
+    align-items: center;
+    margin: 0px;
+    
+   
+}
+.navl{
+    display: inline-block;
+    border-right: 1px solid white;
+    margin: 0;
+ }
+ .navl:last-child{
+     border: none;
+ }
+.navl a{
+    text-decoration: none;
+   text-align: center;
+    display: block;
+    padding: 10px 33px;
+}
+h2{
+    padding: 20px;
+}
+
+menu li{
+    padding: 5px;
+}
+.block{
+   max-width: 180px;
+   margin: 10px 0 0 0;
+   line-height: 25px;
+   padding-left: 6px;
+}
+.block h3{
+    margin: 20px  0px;
+    padding: 2px 20px;
+    
+}
+.block span{
+    padding: 10px 10px;
+    display: block;
+}
+main{
+    display: flex;
+}
+.asid{
+    min-width: 220px;
+}
+.mainartic h3{
+   
+    margin: 20px 0px;
+    border-bottom: 1px solid white;
+}
+.mainartic{
+    display: block;
+}  
+.mainartic p{
+    text-align: justify;
+    line-height: 25px;
+    padding-right: 15px;
+}
+.subser{
+   display: flex;
+   flex-direction: row; 
+   margin-top: 35px;
+   line-height: 25px;
+}
+button{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#615bce ;
+    border-radius: 5%;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(135, 135, 27);
+}
+.ser{
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+form{
+    padding: 10px;
+    margin: 40px 20px;
+    border: 2px solid #a59731;
+    max-width: 300px;
+}
+form label{
+    display: block;
+    margin-top: 15px;
+}
+fieldset{
+    max-width: fit-content;
+    
+    padding: 5px;
+    margin: 0;
+}
+form input , form textarea{
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid white;
+}
+.sub h3 , .ser h3{
+    padding: 15px 0px;
+}
