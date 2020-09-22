@@ -1,0 +1,36 @@
+header h1{
+  text-align: center;
+    
+}
+header,footer {
+    background-color: #282654;
+    color: white;
+    padding: 10px;
+}
+
+h4{
+    background-color: #d4d415;
+    padding: 15px;
+}
+img{
+    display: block;
+}
+
+footer a{
+    color: #d4d415;
+}
+.item{
+    display: block;
+    
+    line-height: 30px;
+}
+ul{
+    list-style-type: square;
+    font-style: italic;
+    
+}
+li{
+    margin: 10px;
+}
+
+
