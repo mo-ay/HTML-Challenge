@@ -1,26 +1,41 @@
 *{
     margin: 0 auto;
     padding: 0;
-    color: rgb(226, 235, 216);
+    color: white;
 }
 body{
-    background-color: #0e0c2b;
+    background-color: #212B2D;
 }
 header{
-    background-image: url(sitecover.jpg);
+    background-color:#345358 ;
     
     padding: 30px;
     min-height: 150px;
+    display: flex;
+}
+
+.imghed{
+ max-width: 500px;
+ max-height: 250px; 
+ width: fit-content;
+ height: fit-content;
+ margin-right: -40px;
+ margin-bottom: -40px;
+  
+}
+.lef h2{
+    padding-top: 25px;
+    padding-left: 0px;
 }
 nav{
     margin-top: 10px;
-    background-color: #1b184b;
+    background-color: #333D3F;
 }
 .navm{
     list-style-type: none;
     display: flex;
    
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden; 
     align-items: center;
     margin: 0px;
@@ -31,6 +46,7 @@ nav{
     display: inline-block;
     border-right: 1px solid white;
     margin: 0;
+    
  }
  .navl:last-child{
      border: none;
@@ -69,9 +85,9 @@ main{
 .asid{
     min-width: 220px;
 }
-.mainartic h3{
+.mainartic h2{
    
-    margin: 20px 0px;
+  
     border-bottom: 1px solid white;
 }
 .mainartic{
@@ -91,7 +107,7 @@ main{
 button{
     margin-top: 20px;
     padding: 20px;
-    background-color:#615bce ;
+    background-color:#98AAAF ;
     border-radius: 5%;
     font-weight: bold;
 }
@@ -105,7 +121,7 @@ button:hover{
 form{
     padding: 10px;
     margin: 40px 20px;
-    border: 2px solid #a59731;
+    border-left: 2px solid #a59731;
     max-width: 300px;
 }
 form label{
